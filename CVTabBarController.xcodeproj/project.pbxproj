@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849B668121CBC7800096DAB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B668021CBC7800096DAB5 /* AppDelegate.swift */; };
+		849B668321CBC7800096DAB5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B668221CBC7800096DAB5 /* FirstViewController.swift */; };
+		849B668821CBC7810096DAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849B668721CBC7810096DAB5 /* Assets.xcassets */; };
+		849B668B21CBC7810096DAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B668921CBC7810096DAB5 /* LaunchScreen.storyboard */; };
+		849B669821CBC7E70096DAB5 /* CVTabBarController.Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669321CBC7E70096DAB5 /* CVTabBarController.Extension.swift */; };
+		849B669921CBC7E70096DAB5 /* CVPaopao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669421CBC7E70096DAB5 /* CVPaopao.swift */; };
+		849B669A21CBC7E70096DAB5 /* CVTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669521CBC7E70096DAB5 /* CVTabBarItem.swift */; };
+		849B669B21CBC7E70096DAB5 /* CVTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669621CBC7E70096DAB5 /* CVTabBarController.swift */; };
+		849B669C21CBC7E70096DAB5 /* CVTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669721CBC7E70096DAB5 /* CVTabBar.swift */; };
+		849B669E21CBC82F0096DAB5 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669D21CBC82F0096DAB5 /* BaseTabBarController.swift */; };
+		849B66A021CBC8B30096DAB5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669F21CBC8B30096DAB5 /* SecondViewController.swift */; };
+		849B66A221CBC8BE0096DAB5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B66A121CBC8BE0096DAB5 /* ThirdViewController.swift */; };
+		849B66A421CBC8D20096DAB5 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B66A321CBC8D20096DAB5 /* ForthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849B667D21CBC7800096DAB5 /* CVTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B668021CBC7800096DAB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849B668221CBC7800096DAB5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		849B668721CBC7810096DAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849B668A21CBC7810096DAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849B668C21CBC7810096DAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849B669321CBC7E70096DAB5 /* CVTabBarController.Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVTabBarController.Extension.swift; sourceTree = "<group>"; };
+		849B669421CBC7E70096DAB5 /* CVPaopao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVPaopao.swift; sourceTree = "<group>"; };
+		849B669521CBC7E70096DAB5 /* CVTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVTabBarItem.swift; sourceTree = "<group>"; };
+		849B669621CBC7E70096DAB5 /* CVTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVTabBarController.swift; sourceTree = "<group>"; };
+		849B669721CBC7E70096DAB5 /* CVTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVTabBar.swift; sourceTree = "<group>"; };
+		849B669D21CBC82F0096DAB5 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		849B669F21CBC8B30096DAB5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		849B66A121CBC8BE0096DAB5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		849B66A321CBC8D20096DAB5 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849B667A21CBC7800096DAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849B667421CBC7800096DAB5 = {
+			isa = PBXGroup;
+			children = (
+				849B667F21CBC7800096DAB5 /* CVTabBarController */,
+				849B667E21CBC7800096DAB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849B667E21CBC7800096DAB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849B667D21CBC7800096DAB5 /* CVTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849B667F21CBC7800096DAB5 /* CVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				849B669221CBC7E70096DAB5 /* Classes */,
+				849B668021CBC7800096DAB5 /* AppDelegate.swift */,
+				849B668221CBC7800096DAB5 /* FirstViewController.swift */,
+				849B669F21CBC8B30096DAB5 /* SecondViewController.swift */,
+				849B66A121CBC8BE0096DAB5 /* ThirdViewController.swift */,
+				849B66A321CBC8D20096DAB5 /* ForthViewController.swift */,
+				849B669D21CBC82F0096DAB5 /* BaseTabBarController.swift */,
+				849B668721CBC7810096DAB5 /* Assets.xcassets */,
+				849B668921CBC7810096DAB5 /* LaunchScreen.storyboard */,
+				849B668C21CBC7810096DAB5 /* Info.plist */,
+			);
+			path = CVTabBarController;
+			sourceTree = "<group>";
+		};
+		849B669221CBC7E70096DAB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				849B669321CBC7E70096DAB5 /* CVTabBarController.Extension.swift */,
+				849B669421CBC7E70096DAB5 /* CVPaopao.swift */,
+				849B669521CBC7E70096DAB5 /* CVTabBarItem.swift */,
+				849B669621CBC7E70096DAB5 /* CVTabBarController.swift */,
+				849B669721CBC7E70096DAB5 /* CVTabBar.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849B667C21CBC7800096DAB5 /* CVTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B668F21CBC7810096DAB5 /* Build configuration list for PBXNativeTarget "CVTabBarController" */;
+			buildPhases = (
+				849B667921CBC7800096DAB5 /* Sources */,
+				849B667A21CBC7800096DAB5 /* Frameworks */,
+				849B667B21CBC7800096DAB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVTabBarController;
+			productName = CVTabBarController;
+			productReference = 849B667D21CBC7800096DAB5 /* CVTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849B667521CBC7800096DAB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "caven-twy";
+				TargetAttributes = {
+					849B667C21CBC7800096DAB5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 849B667821CBC7800096DAB5 /* Build configuration list for PBXProject "CVTabBarController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849B667421CBC7800096DAB5;
+			productRefGroup = 849B667E21CBC7800096DAB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849B667C21CBC7800096DAB5 /* CVTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849B667B21CBC7800096DAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B668B21CBC7810096DAB5 /* LaunchScreen.storyboard in Resources */,
+				849B668821CBC7810096DAB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849B667921CBC7800096DAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B669E21CBC82F0096DAB5 /* BaseTabBarController.swift in Sources */,
+				849B66A421CBC8D20096DAB5 /* ForthViewController.swift in Sources */,
+				849B669A21CBC7E70096DAB5 /* CVTabBarItem.swift in Sources */,
+				849B66A221CBC8BE0096DAB5 /* ThirdViewController.swift in Sources */,
+				849B668321CBC7800096DAB5 /* FirstViewController.swift in Sources */,
+				849B66A021CBC8B30096DAB5 /* SecondViewController.swift in Sources */,
+				849B668121CBC7800096DAB5 /* AppDelegate.swift in Sources */,
+				849B669921CBC7E70096DAB5 /* CVPaopao.swift in Sources */,
+				849B669C21CBC7E70096DAB5 /* CVTabBar.swift in Sources */,
+				849B669B21CBC7E70096DAB5 /* CVTabBarController.swift in Sources */,
+				849B669821CBC7E70096DAB5 /* CVTabBarController.Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		849B668921CBC7810096DAB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849B668A21CBC7810096DAB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849B668D21CBC7810096DAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849B668E21CBC7810096DAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849B669021CBC7810096DAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CVTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caven-twy.CVTabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849B669121CBC7810096DAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CVTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "caven-twy.CVTabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849B667821CBC7800096DAB5 /* Build configuration list for PBXProject "CVTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B668D21CBC7810096DAB5 /* Debug */,
+				849B668E21CBC7810096DAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849B668F21CBC7810096DAB5 /* Build configuration list for PBXNativeTarget "CVTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B669021CBC7810096DAB5 /* Debug */,
+				849B669121CBC7810096DAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849B667521CBC7800096DAB5 /* Project object */;
+}
