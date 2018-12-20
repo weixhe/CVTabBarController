@@ -1,7 +1,7 @@
 # CVTabBarController
 
 #### 图片展示
-
+![TabBarController展示](https://github.com/weixhe/CVTabBarController/blob/master/CVTabBarController/Images/1.png)
 
 #### 引入工程
 使用CocoaPod
