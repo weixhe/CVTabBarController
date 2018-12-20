@@ -20,6 +20,7 @@
 		849B66A021CBC8B30096DAB5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B669F21CBC8B30096DAB5 /* SecondViewController.swift */; };
 		849B66A221CBC8BE0096DAB5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B66A121CBC8BE0096DAB5 /* ThirdViewController.swift */; };
 		849B66A421CBC8D20096DAB5 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B66A321CBC8D20096DAB5 /* ForthViewController.swift */; };
+		849B66A721CBD9610096DAB5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B66A621CBD9610096DAB5 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		849B669F21CBC8B30096DAB5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		849B66A121CBC8BE0096DAB5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		849B66A321CBC8D20096DAB5 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		849B66A621CBD9610096DAB5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		849B667F21CBC7800096DAB5 /* CVTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				849B66A521CBD9540096DAB5 /* Images */,
 				849B669221CBC7E70096DAB5 /* Classes */,
 				849B668021CBC7800096DAB5 /* AppDelegate.swift */,
 				849B668221CBC7800096DAB5 /* FirstViewController.swift */,
@@ -94,6 +97,14 @@
 				849B669721CBC7E70096DAB5 /* CVTabBar.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		849B66A521CBD9540096DAB5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				849B66A621CBD9610096DAB5 /* 1.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			files = (
 				849B668B21CBC7810096DAB5 /* LaunchScreen.storyboard in Resources */,
 				849B668821CBC7810096DAB5 /* Assets.xcassets in Resources */,
+				849B66A721CBD9610096DAB5 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

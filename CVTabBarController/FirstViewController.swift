@@ -17,9 +17,8 @@ class FirstViewController: UIViewController {
         
         let addBtn = UIButton(type: .custom)
         addBtn.frame = CGRect(x: 20, y: 100, width: 80, height: 40)
-        addBtn.setTitle("+", for: .normal)
-        addBtn.setTitleColor(UIColor.red, for: .normal)
-        addBtn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        addBtn.setTitle("泡泡", for: .normal)
+        addBtn.setTitleColor(UIColor.white, for: .normal)
         addBtn.backgroundColor = UIColor.red
         addBtn.addTarget(self, action: #selector(showBridge), for: .touchUpInside)
         view.addSubview(addBtn)
@@ -30,7 +29,7 @@ class FirstViewController: UIViewController {
     @objc func showBridge() {
 //        self.cv_tabBarItem?.updatePaopao(text: "40")
         
-        self.cv_tabBarController?.updatePaopao(text: "", at: 0)
+        self.cv_tabBarController?.updatePaopao(text: "30", at: 0)
     }
 }
 
